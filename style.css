@@ -39,10 +39,6 @@ nav > a {
 
 nav > a:hover {background-color: rgba(104, 188, 212, 0.5);}
 
-a {
-  text-decoration: none;
-}
-
 h1 {
   text-align: center;
   margin: 0 20px;
@@ -65,7 +61,22 @@ body {
 }
 
 a {
-  color: #02b3e4
+  color: #02b3e4;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
 }
 
 .footer {
