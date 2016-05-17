@@ -29,16 +29,6 @@ nav {
   justify-content: center;
 }
 
-nav > a {
-  padding: 6px 0;
-  text-align: center;
-  color: #294860;
-  font-size: .8em;
-  width: 80px;
-}
-
-nav > a:hover {background-color: rgba(104, 188, 212, 0.5);}
-
 h1 {
   text-align: center;
   margin: 0 20px;
@@ -65,6 +55,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #294860
+}
+
 main {
   display: flex;
   flex-flow: wrap;
@@ -73,9 +67,17 @@ main {
 
 .project {
   width: 400px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.project:hover{
+  background: rgba(100, 150, 150, 0.1);
 }
 
 h2 {
+
   text-align: center;
 }
 
