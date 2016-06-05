@@ -76,6 +76,10 @@ main {
   background: rgba(100, 150, 150, 0.1);
 }
 
+img {
+  width: inherit;
+}
+
 h2 { text-align: center;}
 h2 a { color: #02ccba;}
 
